@@ -23,8 +23,22 @@ public class Livro {
         return autor;
     }
 
+    public void exibirDetalhes() {
+        //System.out.println("O autor é " +getAutor()+ " e o título é: " +getTitulo());
+        System.out.println("O título é: " +getTitulo()+ " e o autor é: " +getAutor());
+    }
+
     public static void main(String[] args) {
         Livro livro1 = new Livro();
         Livro livro2 = new Livro();
+
+        livro1.setAutor("Machado de Assis");
+        livro1.setTitulo("Memórias Póstumas de Brás Cubas");
+
+        livro2.setAutor("Charlie Donlea");
+        livro2.setTitulo("A garota do Lago");
+
+        livro1.exibirDetalhes();
+        livro2.exibirDetalhes();
     }
 }

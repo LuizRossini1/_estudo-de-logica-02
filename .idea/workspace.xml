@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c91bff1-02a8-444f-9fc8-e485b7d54daa" name="Changes" comment="" />
+    <list default="true" id="3c91bff1-02a8-444f-9fc8-e485b7d54daa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/src/Aluno.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ContaBancaria.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/IdadePessoa.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Livro.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Produto.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -42,6 +46,7 @@
     "Application.Aluno.executor": "Run",
     "Application.ContaBancaria.executor": "Run",
     "Application.IdadePessoa.executor": "Run",
+    "Application.Livro.executor": "Run",
     "Application.Produto.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
