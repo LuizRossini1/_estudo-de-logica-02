@@ -22,22 +22,22 @@ public class Produto {
         return preco;
     }
 
-    public double aplicarDesconto() {
-        double porcentagemDesconto = 10;
+    public double aplicarDesconto(double porcentagemDesconto) {
         double desconto = (preco * porcentagemDesconto) / 100;
-        double precoFinal = preco - desconto;
-        return precoFinal;
+        this.preco -= desconto;
+        return desconto;
     }
 
     public static void main(String[] args) {
         Produto produto01 = new Produto();
 
-        produto01.aplicarDesconto();
         produto01.setNome("Headset");
         produto01.setPreco(100);
 
         System.out.println("Produto: " +produto01.getNome());
         System.out.println("Preço do produto: " +produto01.getPreco());
-        System.out.println("O desconto do produto é de: " +produto01.aplicarDesconto()+ "%");
+        double desconto = produto01.aplicarDesconto(20);
+        System.out.println("O desconto do produto é de: " +desconto+ "%");
+        System.out.println("O preço do produto com desconto é de: " +produto01.getPreco());
     }
 }
